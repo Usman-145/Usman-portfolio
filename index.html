@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman | Full Stack Developer</title>
+    <link rel="icon" href="https://i.pinimg.com/474x/fe/31/6b/fe316b7516fee405611292de1e26acb5.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Usman<span>Dev</span></a>
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#" class="theme-toggle"><i class="fas fa-moon"></i></a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="video-container">
+            <video autoplay muted loop id="techVideo">
+                <source src="assets/videos/tech-bg.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Hi, I'm Usman">Hi, I'm <span>Usman</span></h1>
+            <h2 class="typewriter"></h2>
+            <p>Creating immersive digital experiences with cutting-edge web technologies</p>
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+            <div class="scroll-down">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <h2>About <span>Me</span></h2>
+            <p>Get to know the developer behind the code</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://i.pinimg.com/736x/5a/f3/76/5af376c6db4e01d502d71527ccda2baf.jpg" alt="Usman - Full Stack Developer">
+                <div class="tech-icons">
+                    <i class="fab fa-js" data-tooltip="JavaScript"></i>
+                    <i class="fab fa-react" data-tooltip="React"></i>
+                    <i class="fab fa-node-js" data-tooltip="Node.js"></i>
+                    <i class="fas fa-cube" data-tooltip="Three.js"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Full Stack Developer</h3>
+                <p>I am a committed Full Stack Developer with over a year of experience delivering seamless and visually compelling web applications. Specializing in React, Node.js, modern web technologies, and integrating AI-driven solutions, I excel at blending functionality with design to create impactful user experiences. Beyond development, I actively engage with emerging technologies like machine learning and AI, contribute to influential open-source projects, and share my expertise through insightful technical blogs. My passion fuels my drive to innovate and collaborate, building solutions that make a meaningful difference.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span>Name:</span>
+                        <p>Usman</p>
+                    </div>
+                    <div class="detail-item">
+                        <span>Email:</span>
+                        <p>usmanaliwcc1@gmail.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <span>Expertise:</span>
+                        <p>Development</p>
+                    </div>
+                    <div class="detail-item">
+                        <span>Location:</span>
+                        <p>Lahore</p>
+                    </div>
+                </div>
+                <a href="assets/documents/cv.pdf" download="Usman_Developer_CV.pdf" class="btn btn-primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Slider -->
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>My <span>Services</span></h2>
+            <p>What I can do for you</p>
+        </div>
+        <div class="swiper services-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Create modern web experiences using the latest technologies and frameworks.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="swiper-slide service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>Build complete web applications with modern frontend frameworks and robust backend solutions.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="swiper-slide service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Interactive UI/UX</h3>
+                    <p>Design and implement engaging user interfaces with smooth animations and interactions.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="swiper-slide service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Web Performance</h3>
+                    <p>Optimize your website for blazing fast speeds and smooth performance.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="swiper-slide service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Deploy scalable web applications with modern cloud infrastructure and serverless architectures.</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-title">
+            <h2>My <span>Skills</span></h2>
+            <p>Technologies I work with</p>
+        </div>
+        <div class="skills-container">
+            <div class="skills-image">
+                <img src="https://i.pinimg.com/474x/37/a7/63/37a763eb1c17d3a3cf8048667965a0da.jpg" alt="Developer Skills">
+            </div>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-percent="95">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-percent="90">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-percent="85">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-percent="90">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-percent="85">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-percent="80">
+                            <div class="skill-info">
+                                <span>MongoDB</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+            <p>Some of my recent work</p>
+        </div>
+        <div class="projects-container">
+            <div class="coming-soon-container">
+                <div class="coming-soon">
+                    <div class="coming-soon-content">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Exciting Projects Coming Soon!</h3>
+                        <p>I'm currently working on some amazing projects that will showcase my skills and creativity.</p>
+                        <p>Stay tuned for updates!</p>
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span class="days">00</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="hours">00</span>
+                                <span class="countdown-label">Hours</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="minutes">00</span>
+                                <span class="countdown-label">Minutes</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="seconds">00</span>
+                                <span class="countdown-label">Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Contact <span>Me</span></h2>
+            <p>Get in touch for collaborations or opportunities</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <div class="contact-info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-info-text">
+                        <h4>Location</h4>
+                        <p>Lahore</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-info-text">
+                        <h4>Email</h4>
+                        <p>usmanaliwcc1@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-info-text">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Usman-145"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ch-usman-213807309/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Usman Dev</h4>
+                <p>Creating immersive web experiences with cutting-edge technologies.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Usman-145"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ch-usman-213807309/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Full Stack Solutions</a></li>
+                    <li><a href="#">Interactive UI/UX</a></li>
+                    <li><a href="#">Web Performance</a></li>
+                    <li><a href="#">Cloud Solutions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to my newsletter for the latest updates and insights.</p>
+                <form id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 . All Rights Reserved | Developed by Areeba.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <div class="notification"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
